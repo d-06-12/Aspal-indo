@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Aspal Indo — Jasa Pengaspalan Profesional</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Oswald:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <h1 class="brand">Aspal <span>Indo</span></h1>
+        <button
+          id="navToggle"
+          class="nav-toggle"
+          aria-controls="siteNav"
+          aria-expanded="false"
+          aria-label="Buka menu"
+        ></button>
+        <nav class="nav" id="siteNav" role="navigation" aria-label="Main">
+          <a href="#services">Layanan</a>
+          <a href="#about">Tentang</a>
+          <a href="#projects">Proyek</a>
+          <a href="#contact">Kontak</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <h2>Mengaspal Jalan, Halaman & Area Industri</h2>
+            <p class="lead">
+              Aspal Indo menyediakan layanan pengaspalan berkualitas, cepat, dan
+              tahan lama untuk perumahan, komersial, dan industri.
+            </p>
+            <div class="hero-ctas">
+              <a class="btn btn-primary" href="#contact">Minta Penawaran</a>
+              <a class="btn btn-ghost" href="#projects">Lihat Proyek</a>
+            </div>
+          </div>
+          <div class="hero-card">
+            <div class="stat">
+              <h3>+10</h3>
+              <p>Tahun pengalaman</p>
+            </div>
+            <div class="stat">
+              <h3>200+</h3>
+              <p>Proyek selesai</p>
+            </div>
+            <div class="stat">
+              <h3>98%</h3>
+              <p>Kepuasan pelanggan</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section services container">
+        <h2 class="section-title">Layanan Kami</h2>
+        <div class="cards">
+          <article class="card">
+            <img
+              src="https://jhontraktor.co/wp-content/uploads/2024/05/Customer-Gathering-BNI-X-HIVE-FIVE-70.png"
+              class="responsive-img"
+            />
+
+            <h3>Pengaspalan Jalan</h3>
+            <p>
+              Pengaspalan jalan desa, komplek, dan jalan akses dengan material
+              berkualitas.
+            </p>
+          </article>
+          <article class="card">
+            <img
+              src="https://img.mbizmarket.co.id/products/thumbs/800x800/2023/03/25/8ff4b61e50abcf7bf37758802309c03a.jpg"
+              class="responsive-img"
+            />
+            <h3>Halaman & Parkiran</h3>
+            <p>
+              Pekerjaan area parkir dan halaman rumah dengan finishing rapi dan
+              tahan lama.
+            </p>
+          </article>
+          <article class="card">
+            <img
+              src="https://awsimages.detik.net.id/community/media/visual/2023/02/24/lubang-lubang-di-jalan-mh-thamrin-mulai-ditambal-3.jpeg?w=600&q=90"
+              class="responsive-img"
+            />
+            <h3>Perbaikan & Tambal Sulam</h3>
+            <p>
+              Perbaikan retakan, lubang, dan perawatan rutin agar umur aspal
+              lebih panjang.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="section projects">
+        <div class="container">
+          <h2 class="section-title">Contoh Proyek</h2>
+          <div class="project-grid">
+            <div class="project">
+              Proyek A - Jalan Kompleks
+              <img
+                src="https://events.rumah123.com/wp-content/uploads/sites/38/2022/06/24024648/Peraturan-Pemerintah-tentang-Lebar-Jalan-Perumahan.jpg"
+                class="responsive-img"
+              />
+            </div>
+            <div class="project">
+              Proyek B - Parkiran Mall
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx-gqg57zNJMsHWF_7dVmwh12XAAstWMGxFA&s"
+                class="responsive-img"
+              />
+            </div>
+            <div class="project">
+              Proyek C - Area Industri
+              <img
+                src="https://cdnmedia.mapei.com/images/librariesprovider26/banner/lapisan-pelindung-lantai-pabrik.jpg?sfvrsn=15206889_1"
+                class="responsive-img"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section about container">
+        <h2 class="section-title">Mengapa Memilih Aspal Indo?</h2>
+        <ul class="about-list">
+          <li>Material berkualitas dan teknik pengecoran modern</li>
+          <li>Tim berpengalaman dan jadwal pengerjaan yang terencana</li>
+          <li>Garansi pekerjaan dan layanan purna jual</li>
+        </ul>
+      </section>
+
+      <section id="contact" class="section contact container">
+        <h2 class="section-title">Hubungi Kami</h2>
+        <p>
+          Untuk estimasi gratis, hubungi contact person kami atau kirim pesan
+          lewat form.
+        </p>
+        <div class="contact-actions">
+          <button id="contactBtn" class="contact-btn">Contact Person</button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>&copy; <span id="year"></span> Aspal Indo — Semua hak dilindungi.</p>
+      </div>
+    </footer>
+
+    <!-- Modal -->
+    <div id="modal" class="modal" aria-hidden="true">
+      <div class="modal-panel">
+        <button id="modalClose" class="modal-close" aria-label="Tutup">
+          ×
+        </button>
+        <h3>Contact Person</h3>
+        <p class="cp-name">Raynatan Darwin</p>
+        <p class="cp-role">Sales & Estimasi</p>
+        <p class="cp-phone">
+          📞 <a href="tel:+6282335352237">0823-3535-2237</a>
+        </p>
+        <p class="cp-wp">
+          💬
+          <a href="https://wa.me/6282335352237" target="_blank" rel="noopener"
+            >Chat via WhatsApp</a
+          >
+        </p>
+        <p class="note">
+          Atau kirim email ke
+          <a href="mailto:denniskwolen064.gmail.com"
+            >denniskwolen064.Gmail.com</a
+          >
+        </p>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
